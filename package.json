@@ -1,0 +1,23 @@
+{
+  "name": "fcctributechallengerefactored",
+  "version": "1.0.0",
+  "description": "Free Code Camp Tribute Challenge Refactored (V2 SASS &amp; V3 React)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbventures/fccTributeChallengeRefactored.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbventures/fccTributeChallengeRefactored/issues"
+  },
+  "homepage": "https://github.com/kbventures/fccTributeChallengeRefactored#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
