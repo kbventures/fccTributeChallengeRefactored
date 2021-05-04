@@ -5,12 +5,24 @@
   padding: 0;
   box-sizing: inherit; }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
 html {
   font-size: 62.5%; }
 
 body {
   box-sizing: border-box;
   background-color: #c5c4c3; }
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #362823; }
 
 .u-center-text {
   text-align: center !important; }
