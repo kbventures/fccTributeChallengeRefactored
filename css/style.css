@@ -5,13 +5,6 @@
   padding: 0;
   box-sizing: inherit; }
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
-
 html {
   font-size: 62.5%; }
 
@@ -23,6 +16,14 @@ body {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   color: #362823; }
+
+.heading-primary {
+  color: #362823;
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+.heading-secondary {
+  font-style: italic; }
 
 .u-center-text {
   text-align: center !important; }
