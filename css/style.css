@@ -111,7 +111,8 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
   .header__image-box {
     margin: 1rem 0;
     position: absolute;
@@ -124,7 +125,11 @@ body {
     padding: 1.6rem 1.6rem;
     text-align: left;
     font-size: 2.4rem; }
-  .header__image-box--fig-caption {
+  .header__caption {
     font-size: 1.6rem; }
-  .header__image-box--text {
-    font-size: 2.4rem; }
+  .header__hr-box-1 {
+    position: relative;
+    top: 22.5%; }
+  .header__hr-box-2 {
+    position: relative;
+    top: 92.5%; }
