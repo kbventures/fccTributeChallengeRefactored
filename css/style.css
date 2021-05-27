@@ -54,12 +54,18 @@ body {
 
 .heading-secondary {
   font-size: 3.1rem; }
+  .heading-secondary--chronology {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: #362823 solid 1px; }
 
 .u-center-text {
   text-align: center !important; }
 
 .u-italic-text {
   font-style: italic !important; }
+
+.u-underline-text {
+  text-decoration: underline !important; }
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
@@ -105,7 +111,8 @@ body {
 .header {
   height: 100vh;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 3rem; }
   .header__text-box {
     position: absolute;
     top: 10%;

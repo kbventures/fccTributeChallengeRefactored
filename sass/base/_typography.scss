@@ -13,4 +13,9 @@ body{
 
 .heading-secondary{
     font-size: 3.1rem;;
+
+    &--chronology{
+        font-family: 'Times New Roman', Times, serif;
+        border-bottom: #362823 solid 1px;
+    }
 }
