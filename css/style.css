@@ -58,6 +58,13 @@ body {
     font-family: 'Times New Roman', Times, serif;
     border-bottom: #362823 solid 1px; }
 
+.chronology {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;
+  text-align: justify; }
+  .chronology__title {
+    font-size: 3.2rem; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -140,3 +147,18 @@ body {
   .header__hr-box-2 {
     position: relative;
     top: 92.5%; }
+
+.chronology {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;
+  text-align: justify; }
+  .chronology__title {
+    text-align: center;
+    padding: 1rem; }
+  .chronology__item {
+    font-size: 2.3rem; }
+    .chronology__item:not(:last-child) {
+      margin-bottom: 5rem; }
+  .chronology__span {
+    border-bottom: solid 1px black;
+    font-size: 3.2rem; }

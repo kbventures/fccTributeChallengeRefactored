@@ -19,3 +19,13 @@ body{
         border-bottom: #362823 solid 1px;
     }
 }
+
+.chronology{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    text-align: justify;
+
+    &__title{
+        font-size: 3.2rem;
+    }
+}
