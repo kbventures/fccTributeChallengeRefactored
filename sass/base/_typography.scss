@@ -20,6 +20,10 @@ body{
     }
 }
 
+.heading-tertiary{
+    font-size: 2.4rem
+}
+
 .chronology{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.2rem;
@@ -28,4 +32,10 @@ body{
     &__title{
         font-size: 3.2rem;
     }
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    text-align: center;;
 }

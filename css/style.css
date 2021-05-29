@@ -58,12 +58,20 @@ body {
     font-family: 'Times New Roman', Times, serif;
     border-bottom: #362823 solid 1px; }
 
+.heading-tertiary {
+  font-size: 2.4rem; }
+
 .chronology {
   font-family: 'Times New Roman', Times, serif;
   font-size: 2.2rem;
   text-align: justify; }
   .chronology__title {
     font-size: 3.2rem; }
+
+footer {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  text-align: center; }
 
 .u-center-text {
   text-align: center !important; }
@@ -82,6 +90,12 @@ body {
 
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
 
 .u-margin-top-big {
   margin-top: 8rem !important; }
@@ -162,3 +176,21 @@ body {
   .chronology__span {
     border-bottom: solid 1px black;
     font-size: 3.2rem; }
+
+.book {
+  position: relative;
+  height: 53rem; }
+  .book__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .book__img {
+    max-width: 30rem;
+    height: auto; }
+
+.footer {
+  height: 17rem; }
+  .footer__social-media svg {
+    max-width: 9rem;
+    padding: 0 1rem 0 1rem; }
