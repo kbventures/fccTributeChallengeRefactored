@@ -109,7 +109,7 @@ footer {
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
-    content: "";
+    content: '';
     display: table;
     clear: both; }
   .row [class^="col-"] {
