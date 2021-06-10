@@ -1,3 +1,32 @@
+/*
+MEDIA QUERY MANAGER Source: 
+Jonas Schemdthmann Advanced CSS And Sass Course
+https://www.udemy.com/course/advanced-css-and-sass
+
+
+0-600px;        PHONE
+600 - 900px;    Tablet portrait
+900 - 1200px;   Tablet landscape
+[1200-1800] is where normal styles apply
+1800px + :      Big Desktop
+*/
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: BASE + Typography > General Layout + Grid > Page Layout > Components
+
+
+For Media queries teh rem isn't equal to the root setup(ie:
+In our case 10px but instead browser default 16px
+Ems are the best option for media queries
+1em = 16 px;
+
+
+*/
 *,
 *::after,
 *::before {
@@ -36,12 +65,28 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
-html {
-  font-size: 62.5%; }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
 body {
   box-sizing: border-box;
   background-color: #c5c4c3; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   font-family: 'Oswald', sans-serif;
