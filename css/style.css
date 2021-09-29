@@ -78,6 +78,9 @@ body {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 35%; } }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -152,6 +155,9 @@ footer {
   max-width: 114rem;
   margin: 0 auto;
   padding: 10rem; }
+  @media (max-width: 37.5em) {
+    .row {
+      padding: 5rem 3rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
@@ -199,14 +205,29 @@ footer {
     padding: 1.6rem 1.6rem;
     text-align: left;
     font-size: 2.4rem; }
+    @media (max-width: 75em) {
+      .header__image-box {
+        width: 80%; } }
+    @media (max-width: 56.25em) {
+      .header__image-box {
+        width: 90%; } }
+    @media (max-width: 37.5em) {
+      .header__image-box {
+        width: 100%; } }
   .header__caption {
     font-size: 1.6rem; }
   .header__hr-box-1 {
     position: relative;
     top: 22.5%; }
+    @media (max-width: 37.5em) {
+      .header__hr-box-1 {
+        display: none; } }
   .header__hr-box-2 {
     position: relative;
     top: 92.5%; }
+    @media (max-width: 37.5em) {
+      .header__hr-box-2 {
+        display: none; } }
 
 .chronology {
   font-family: 'Times New Roman', Times, serif;

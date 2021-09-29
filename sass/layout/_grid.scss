@@ -5,17 +5,9 @@
   margin: 0 auto;
   padding: 10rem;
 
-  //   @include respond(tab-land) {
-  //     max-width: 100rem;
-  //   }
-
-  //   @include respond(tab-port) {
-  //     max-width: 90rem;
-  //   }
-
-  //   @include respond(phone) {
-  //     max-width: 80rem;
-  //   }
+  @include respond(phone) {
+    padding: 5rem 3rem;
+  }
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;

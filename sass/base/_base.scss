@@ -14,9 +14,9 @@ body {
 html {
   font-size: 62.5%; // One rem = 10px ie: 10px/16px = 62.5%
 
-  // @include respond(phone) {
-  //   font-size: 50%;
-  // }
+  @include respond(phone) {
+    font-size: 35%;
+  }
 
   @include respond(tab-land) {
     // width < 1200px
